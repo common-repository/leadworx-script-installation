@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#post-body-content { width: 100%; float: left; }
+.postbox { min-width: 255px; border: 1px solid #e5e5e5; background: #fff; }
+#poststuff { padding-top: 10px; min-width: 763px; }
+textarea { width: 100%; height: 200px; resize: none;}
+input[type=text],input[type=email],input[type=password]{ width: 25%;}
+p{width: 100%;}
+label { cursor: default; width: 100%; color: red; float: left }
+#divLoading, .hideData { display: none; }
+.showError { padding: 3px 0 0 5px; color: red; }
+.mrg-top5{ margin-top:5px !important;}
+.mrg-top10{ margin-top:10px !important;}
+.padd-top10{ padding-top:10px;}
+.padd-top5{ padding-top:5px;}
+#divLoading.show { display : block; position : fixed; z-index: 9999; background-image : url('../images/loader.gif'); background-color: #fff; opacity : 0.4; background-repeat : no-repeat; background-position : center; left : 0; bottom : 0; right : 0; top : 0; }
+@media screen and (max-width: 782px){
+#post-body-content{ min-width:100%;}	
+input[type=text],input[type=email],input[type=password], textarea {width: 100%;}
+.postbox .inside h2, .wrap [class$=icon32]+h2, .wrap h1, .wrap>h2:first-child{font-size: 19px;}
+}
